@@ -1,0 +1,18 @@
+<?php
+require 'header.php';
+require '../config/config.php';
+
+$query="SELECT * FROM blog where category='other'";
+$query_run=mysqli_query($con,$query);
+foreach ($query_run as $info) {
+?>
+
+
+
+
+
+
+<?php
+}
+require 'footer.php';
+?>

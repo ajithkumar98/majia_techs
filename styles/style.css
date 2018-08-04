@@ -1,0 +1,534 @@
+
+/**************************intro*****************************/
+
+
+
+
+footer{
+	width: 100%;
+	background-color: black;
+	color: white;
+	
+	border-style: dotted;
+	border-width: 5px 0px 0px 0px;
+	border-top-color: red;
+
+}
+
+
+#menu a{
+	color: red;
+	text-align: center;
+	margin-top: 3px
+}
+
+#data{
+	position: relative;
+}
+
+
+html{
+	color:white;
+}
+
+#top{
+	background-image: url('../pics/top.png');
+	height: 590px;
+	width: 1680px;
+	top: -60px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 10;
+	
+}
+
+#bottom{
+	background-image: url('../pics/bottom.png');
+	height: 550px;
+	width: 1680px;
+	top: 335px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index: 10;
+}
+
+.box{
+background-color: #0c0c0c;	
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	z-index: 20;
+}
+
+#content{
+	font-weight: bold;
+	position: relative;
+	top: -290px;
+	z-index: 2;
+	background-color: #0c0c0c;
+	margin-bottom: -100px;
+
+}
+
+#sub-content{
+
+	position: relative;
+	z-index: 2;
+	background-color: #0c0c0c;
+	margin-bottom: 300px;
+
+}
+
+#sub-content-history{
+	width: 100%;
+	height: 100%;
+	background-attachment: fixed;
+	z-index: 2;
+	background-image: url('../pics/bg.jpg');
+	position: relative;
+
+}
+
+#title{
+	left: 32vw;
+	top: 12vw;
+	color:#f2f2f2;
+	font-weight: bold;
+	font-size:6vw;
+	position: relative;
+}
+
+#blog-body img{
+	position: center;
+
+
+}
+
+@media(max-width: 515px){
+
+#contenthead{
+	font-size: 20px !important;
+	color: red;
+	padding-top: 20px;
+}
+
+#history{
+	background-image: url(../pics/road.jpg);
+	height: 3800px !important;
+	width: 200px !important;
+	top: -35px;
+	background-color: pink;
+	left: 0px !important;
+	position: relative;
+	background-position: center;
+	background-size: contain;
+	overflow: hidden;
+	
+}
+
+#history-title{
+	color: red;
+	font-size: 3vw !important;
+	position: relative;
+	right: 0px;
+	top: 30px;
+}
+
+#history-title h1{
+	color: red;
+	font-size: 7vw !important;
+	padding-left: 10px
+	
+}
+
+
+#bucket{
+	height: 50px !important;
+	width: 50px !important;
+	background-image: url('../pics/man.png');
+	z-index: 65;
+position: fixed;
+background-size: contain;
+top: 230px !important;	
+left: 89px !important;
+
+}
+
+
+	.box{
+	
+	background-attachment: fixed;
+	position: relative;
+
+}
+#top{
+	background-image: url('../pics/top-mini.png');
+	position: relative;
+	width: 480px;
+	height: 491px;
+	top: -90px;
+
+	
+}
+
+.sub-body{
+	position: relative;
+	top: 20vw !important;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	transform: translate(-600px);
+}
+
+.sub-body-show{
+	opacity: 1;
+	transform: translate(0px);
+}
+
+#bottom{
+	background-image: url('../pics/bottom-mini.png');
+	background-position: center;
+	width: 610px;
+	height: 450px;
+	top: 220px;
+	position: absolute;
+
+}
+
+#content{
+	font-weight: bold;
+	position: relative;
+	top: -25vw;
+	margin-bottom: 230px;
+}
+
+#title{
+
+position: relative;
+left: 23vw;
+top: 65vw;
+font-size: 9vw;
+}
+
+.navbar h1{
+	font-size: 6vw;
+}
+
+#blog-body p{
+	font-size: 12px !important;
+padding-top: 10px;
+}
+
+#blog-body img{
+
+	width: 100% !important;
+	margin: 0px;
+
+}
+
+#blog-info{
+	font-size: 12px !important;
+}
+
+#blog-other{
+	font-size: 20px !important;
+}
+#blog-tile{
+	width: 100% !important;
+}
+
+footer h3{
+	font-size: 30px !important;
+}
+
+#bottom-text{
+	position: absolute;
+	top: 50% !important;
+ left: -20% !important;
+ font-size: 30px !important;
+
+}
+
+#related{
+	font-size: 10px !important;
+}
+
+#related-info{
+	font-size: 5px !important;
+}
+#blog-head-tile{
+	height: 200px !important;
+}
+#contenthead-tile{
+	top: 150px !important;
+}
+
+#index-title{
+	font-size: 30px !important;
+}
+
+#about{
+	height: 200px !important;
+	width: 200px !important;
+	background-position: -20px 180px !important;
+	background-size: 50% !important;
+}
+#about-details{
+	margin-left: 220px !important;
+
+}
+/*******************************************/
+
+
+
+/********************************************/
+
+}
+
+@media(min-height: 691px) and (max-width: 500px){
+
+#bottom-text{
+/*	position: relative;
+	top: 46vw !important;
+ left: -115px !important;*/
+}
+
+#title{
+	left: 15%;
+	top: 200px;
+	color:#f2f2f2;
+	font-weight: bold;
+	font-size:40px;
+	position: relative;
+}
+
+#top{
+	background-image: url('../pics/top-mini.png');
+	position: relative;
+	width: 480px;
+	background-size: 300%;
+	top: -65px;
+
+	
+}
+
+#bottom{
+	background-image: url('../pics/bottom-mini.png');
+	background-position: -300px center;
+	width: 710px;
+	top: -240px;
+	left: -5vw;
+	height: 1540px;
+	background-size: 180% !important;
+	position: absolute;
+	background-size: 220%;
+
+}
+
+
+}
+
+/*********************************************************/
+
+/********************body************************/
+
+#content h1{
+	text-align: center;
+	color: white;
+}
+
+#main{
+	background-color: black;
+	color: #f2f2f2;
+}
+
+.sub-body{
+	position: relative;
+	top: 7vw;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+	transform: translate(-600px);
+}
+
+.sub-body-show{
+	opacity: 1;
+	transform: translate(0px);
+	position: relative;
+}
+
+.cont-body{
+	position: relative;
+	opacity: 0;
+	transform: translate(500px);
+	transition: all 0.5s ease-in-out;
+}
+.showing{
+	opacity: 1;
+	padding: 25px !important;
+	transform: translate(0px);
+}
+
+/*********************************************************/
+
+
+/*****************loader**************/
+.spinner{
+    width: 80px;
+    height: 80px;
+    border: 2px solid white;
+    border-top:3px solid red;
+    border-radius: 100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+#loader{
+  height:100%;
+  width:100%;
+  background:rgba(0, 0, 0, 1);
+  position:fixed;
+  z-index: 99;
+  left:0;
+  top:0;
+ }
+/**********************************************/
+
+/*****************history page*******************/
+
+#history{
+	background-image: url(../pics/road.jpg);
+	height: 3000px;
+	width: 800px;
+	top: -35px;
+	background-color: pink;
+	left: 100px;
+	position: relative;
+	background-position: center;
+	overflow: hidden;
+	
+}
+
+
+#bucket{
+	height: 100px;
+	width: 100px;
+	background-image: url('../pics/man.png');
+	z-index: 65;
+position: fixed;
+bottom: 580px;	
+left: 485px;
+
+}
+
+.history-1{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 70px;
+	transition: all 0.5s ease-in-out;
+}
+
+.history-2{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 400px;
+	transition: all 0.5s ease-in-out;
+}
+
+.history-3{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 730px;
+	transition: all 0.5s ease-in-out;
+}
+
+.history-4{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 1060px;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.history-5{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 1390px;
+	transition: all 0.5s ease-in-out;
+}
+
+.history-6{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 1620px;
+	transition: all 0.5s ease-in-out;
+}
+
+.history-7{
+	opacity: 0;
+	border-top-style: solid;
+	border-top-color: red;
+	border-top-width: 1px;
+	transform: translate(70px);
+	position: relative;
+	top: 1950px;
+	transition: all 0.5s ease-in-out;
+}
+
+
+
+.history-show{
+	opacity: 1;
+	transform: translate(0px);
+	position: relative;
+
+}
+
+
+
+
+/***********************************************************/
+.submit-btn{
+	color: white;
+	background-color: red;
+	width: 200px;
+	height: 50px;
+	border:0px
+}
